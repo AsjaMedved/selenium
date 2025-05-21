@@ -2,7 +2,7 @@ plugins {
     java
 }
 
-group = "ru.netology"
+group = "ru.netology.service"
 version = "1.0-SNAPSHOT"
 
 java.sourceCompatibility = JavaVersion.VERSION_11
