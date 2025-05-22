@@ -30,7 +30,6 @@ public class BankTest {
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--no-sandbox");
         options.addArguments("--headless");
-        options.addArguments("--headless=new");
         driver = new ChromeDriver(options);
         driver.get("http://localhost:9999");
     }
