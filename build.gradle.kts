@@ -25,3 +25,4 @@ tasks.test {
     useJUnitPlatform()
     systemProperty("chromeoptions.prefs", System.getProperty("chromeoptions.prefs", "profile.password_manager_leak_detection=false"))
 }
+
